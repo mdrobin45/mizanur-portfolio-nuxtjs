@@ -1,8 +1,6 @@
 // (function ($) {
 //   "use strict";
 
-//   alert("le");
-
 //   // Background-images
 //   $("[data-background]").each(function () {
 //     $(this).css({
