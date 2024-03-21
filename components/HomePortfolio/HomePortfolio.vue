@@ -109,11 +109,11 @@
           </div>
         </div>
       </div>
-      <a href="portfolio.html">
+      <NuxtLink to="/portfolio">
         <div class="text-center mt-5 cursor-pointer">
           <button class="btn btn-primary">View More</button>
         </div>
-      </a>
+      </NuxtLink>
     </div>
   </section>
 </template>
