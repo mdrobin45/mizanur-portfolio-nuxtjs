@@ -1,8 +1,6 @@
 <template>
   <div>
-    <NuxtLayout>
-      <PortfolioBanner />
-      <PortfolioArchive />
-    </NuxtLayout>
+    <PortfolioBanner />
+    <PortfolioArchive />
   </div>
 </template>

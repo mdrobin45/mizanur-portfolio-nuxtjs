@@ -1,15 +1,13 @@
 <template>
   <div>
-    <NuxtLayout>
-      <HeroArea />
-      <About />
-      <Skills />
-      <Experience />
-      <Education />
-      <Services />
-      <HomePortfolio />
-      <Testimonial />
-      <CallToAction />
-    </NuxtLayout>
+    <HeroArea />
+    <About />
+    <Skills />
+    <Experience />
+    <Education />
+    <Services />
+    <HomePortfolio />
+    <Testimonial />
+    <CallToAction />
   </div>
 </template>

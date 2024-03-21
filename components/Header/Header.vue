@@ -38,3 +38,14 @@
     </nav>
   </header>
 </template>
+
+<script setup>
+// window.addEventListener("scroll", function () {
+//   var navigation = document.querySelector(".navigation");
+//   if (navigation.offsetTop > 100) {
+//     navigation.classList.add("nav-bg");
+//   } else {
+//     navigation.classList.remove("nav-bg");
+//   }
+// });
+</script>
