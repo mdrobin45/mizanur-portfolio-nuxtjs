@@ -54,7 +54,7 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        { src: "/jQuery/jquery.min.js" },
+        // { src: "/jQuery/jquery.min.js" },
         { src: "/js/bootstrap.min.js" },
         { src: "/slick/slick.min.js" },
         { src: "/shuffle/shuffle.min.js" },
