@@ -8,102 +8,135 @@
         <div class="col-12 text-center">
           <h2 class="section-title text-white mb-5">Testimonials</h2>
         </div>
+
         <div class="col-lg-10 mx-auto testimonial-slider">
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-            <p class="text-white mb-4">
-              I would personally recommend him for any theme customization,
-              especially Shopify theme customization.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-2 d-inline-block"
-              src="~/assets/images/testimonial/photo1.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Taylor Hill</h4>
-          </div>
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-            <p class="text-white mb-4">
-              Mizanur was a great freelancer for us for a long time and then
-              disappeared without any communication, essentially abandoning our
-              project, causing problems for our clients and team.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-2 d-inline-block"
-              src="~/assets/images/testimonial/photo6.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Davut Jepbarov</h4>
-          </div>
+          <Carousel>
+            <Slide :key="1">
+              <div class="carousel__item">
+                <!-- slider-item -->
+                <div class="text-center testimonial-content">
+                  <i
+                    class="ti-quote-right text-white icon mb-4 d-inline-block"
+                  ></i>
+                  <p class="text-white mb-4">
+                    I would personally recommend him for any theme
+                    customization, especially Shopify theme customization.
+                  </p>
+                  <img
+                    class="dummy-img rounded-circle mb-2 d-inline-block"
+                    src="~/assets/images/testimonial/photo1.png"
+                    alt="client-image"
+                  />
+                  <h4 class="text-white">Taylor Hill</h4>
+                </div>
+              </div>
+            </Slide>
+            <!-- Slide item -->
+            <Slide :key="2">
+              <div class="carousel__item">
+                <!-- slider-item -->
+                <div class="text-center testimonial-content">
+                  <i
+                    class="ti-quote-right text-white icon mb-4 d-inline-block"
+                  ></i>
+                  <p class="text-white mb-4">
+                    Mizanur was a great freelancer for us for a long time and
+                    then disappeared without any communication, essentially
+                    abandoning our project, causing problems for our clients and
+                    team.
+                  </p>
+                  <img
+                    class="dummy-img rounded-circle mb-2 d-inline-block"
+                    src="~/assets/images/testimonial/photo6.png"
+                    alt="client-image"
+                  />
+                  <h4 class="text-white">Davut Jepbarov</h4>
+                </div>
+              </div>
+            </Slide>
+            <Slide :key="3">
+              <div class="carousel__item">
+                <!-- slider-item -->
+                <div class="text-center testimonial-content">
+                  <i
+                    class="ti-quote-right text-white icon mb-4 d-inline-block"
+                  ></i>
+                  <p class="text-white mb-4">
+                    I had a great experience with him with my Shopify theme
+                    customization within a short time.
+                  </p>
+                  <img
+                    class="dummy-img rounded-circle mb-2 d-inline-block"
+                    src="~/assets/images/testimonial/photo4.png"
+                    alt="client-image"
+                  />
+                  <h4 class="text-white">Hamza J</h4>
+                </div>
+              </div>
+            </Slide>
+            <Slide :key="4">
+              <div class="text-center testimonial-content">
+                <i
+                  class="ti-quote-right text-white icon mb-4 d-inline-block"
+                ></i>
+                <p class="text-white mb-4">
+                  When I decided to build my custom CMS, Rahman worked closely
+                  to solve my speed issues and provide flexible ,
+                  easy-to-navigate operation development, which was a big help.
+                  I was able to launch my site in a short time.
+                </p>
+                <img
+                  class="dummy-img rounded-circle mb-2 d-inline-block"
+                  src="~/assets/images/testimonial/photo3.png"
+                  alt="client-image"
+                />
+                <h4 class="text-white">Bobby London</h4>
+              </div>
+            </Slide>
+            <Slide :key="5">
+              <div class="text-center testimonial-content">
+                <i
+                  class="ti-quote-right text-white icon mb-2 d-inline-block"
+                ></i>
+                <p class="text-white mb-4">
+                  wholeheartedly recommend her services to anyone seeking
+                  excellence in their endeavours. He was a pleasure to partner
+                  with on our mission to improve our websites SEO. Her
+                  comprehensive report was extremely thorough.
+                </p>
+                <img
+                  class="dummy-img rounded-circle mb-4 d-inline-block"
+                  src="~/assets/images/testimonial/photo2.png"
+                  alt="client-image"
+                />
+                <h4 class="text-white">Jessica Miller</h4>
+              </div>
+            </Slide>
+            <Slide :key="5">
+              <div class="text-center testimonial-content">
+                <i
+                  class="ti-quote-right text-white icon mb-2 d-inline-block"
+                ></i>
+                <p class="text-white mb-4">
+                  When I was facing a suitable business theme solution, Mizanur
+                  Rahman helped me and lent his hand for continuous support.
+                  Additionally, he helped me get easy with all the functions and
+                  important business data checking.
+                </p>
+                <img
+                  class="dummy-img rounded-circle mb-4 d-inline-block"
+                  src="~/assets/images/testimonial/photo4.png"
+                  alt="client-image"
+                />
+                <h4 class="text-white">Hamza J</h4>
+              </div>
+            </Slide>
 
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-            <p class="text-white mb-4">
-              I had a great experience with him with my Shopify theme
-              customization within a short time.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-2 d-inline-block"
-              src="~/assets/images/testimonial/photo4.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Hamza J</h4>
-          </div>
-
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-            <p class="text-white mb-4">
-              When I decided to build my custom CMS, Rahman worked closely to
-              solve my speed issues and provide flexible , easy-to-navigate
-              operation development, which was a big help. I was able to launch
-              my site in a short time.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-2 d-inline-block"
-              src="~/assets/images/testimonial/photo3.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Bobby London</h4>
-          </div>
-
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-2 d-inline-block"></i>
-            <p class="text-white mb-4">
-              wholeheartedly recommend her services to anyone seeking excellence
-              in their endeavours. He was a pleasure to partner with on our
-              mission to improve our websites SEO. Her comprehensive report was
-              extremely thorough.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-4 d-inline-block"
-              src="~/assets/images/testimonial/photo2.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Jessica Miller</h4>
-          </div>
-
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-2 d-inline-block"></i>
-            <p class="text-white mb-4">
-              When I was facing a suitable business theme solution, Mizanur
-              Rahman helped me and lent his hand for continuous support.
-              Additionally, he helped me get easy with all the functions and
-              important business data checking.
-            </p>
-            <img
-              class="dummy-img rounded-circle mb-4 d-inline-block"
-              src="~/assets/images/testimonial/photo4.png"
-              alt="client-image"
-            />
-            <h4 class="text-white">Hamza J</h4>
-          </div>
+            <template #addons>
+              <Navigation />
+              <Pagination />
+            </template>
+          </Carousel>
         </div>
       </div>
     </div>
@@ -140,3 +173,40 @@
     />
   </section>
 </template>
+
+<script>
+import { defineComponent } from "vue";
+import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
+
+import "vue3-carousel/dist/carousel.css";
+
+export default defineComponent({
+  name: "Basic",
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
+});
+</script>
+
+<style>
+.carousel__slide {
+  padding: 10px;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: none;
+  color: #fff;
+}
+.carousel__prev,
+.carousel__next:hover {
+  color: #fff;
+}
+.carousel__pagination-button--active::after {
+  background: #fff;
+}
+</style>
