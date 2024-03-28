@@ -11,7 +11,7 @@ console.log(src);
 
 <template>
   <div class="screen">
-    <img :src="src">
+    <img src="~/assets/images/portfolio/mountain.png">
   </div>
 </template>
 

@@ -6,7 +6,7 @@
           <h2 class="section-title">Portfolio</h2>
         </div>
       </div>
-      <ScrollProjectCard src="/assets/images/portfolio/mountain.png" />
+      <ScrollProjectCard src="~/assets/images/portfolio/mountain.png" />
       <div class="row shuffle-wrapper">
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
