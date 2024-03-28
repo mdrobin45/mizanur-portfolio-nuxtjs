@@ -421,6 +421,7 @@
     </div> -->
   </section>
 </template>
+<script></script>
 <style>
 .first-tab {
   border-top-left-radius: 5px;

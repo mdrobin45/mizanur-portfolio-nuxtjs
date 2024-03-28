@@ -54,10 +54,9 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        // { src: "/jQuery/jquery.min.js" },
         { src: "/js/bootstrap.min.js" },
-        { src: "/slick/slick.min.js" },
-        { src: "/shuffle/shuffle.min.js" },
+        // { src: "/slick/slick.min.js" },
+        // { src: "/shuffle/shuffle.min.js" },
         { src: "/js/isotope.pkgd.min.js" },
         { src: "/js/script.js" },
         { src: "https://kit.fontawesome.com/6908033352.js" },

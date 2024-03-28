@@ -24,8 +24,8 @@
 
 //   /* ########################################### hero parallax ############################################## */
 //   window.onload = function () {
-//     var parallaxBox = document.getElementById("parallax");
-//     var /* c1left = document.getElementById('l1').offsetLeft,
+//     const parallaxBox = document.getElementById("parallax");
+//     const /* c1left = document.getElementById('l1').offsetLeft,
 //                        c1top = document.getElementById('l1').offsetTop, */
 //       c2left = document.getElementById("l2").offsetLeft,
 //       c2top = document.getElementById("l2").offsetTop,
@@ -46,7 +46,7 @@
 
 //     parallaxBox.onmousemove = function (event) {
 //       event = event || window.event;
-//       var x = event.clientX - parallaxBox.offsetLeft,
+//       const x = event.clientX - parallaxBox.offsetLeft,
 //         y = event.clientY - parallaxBox.offsetTop;
 
 //       /*  mouseParallax('l1', c1left, c1top, x, y, 5); */
@@ -62,8 +62,8 @@
 //   };
 
 //   function mouseParallax(id, left, top, mouseX, mouseY, speed) {
-//     var obj = document.getElementById(id);
-//     var parentObj = obj.parentNode,
+//     const obj = document.getElementById(id);
+//     const parentObj = obj.parentNode,
 //       containerWidth = parseInt(parentObj.offsetWidth),
 //       containerHeight = parseInt(parentObj.offsetHeight);
 //     obj.style.left =
@@ -130,16 +130,16 @@
 //   });
 
 //   // Shuffle js filter and masonry
-//   var Shuffle = window.Shuffle;
-//   var jQuery = window.jQuery;
+//   const Shuffle = window.Shuffle;
+//   const jQuery = window.jQuery;
 
-//   var myShuffle = new Shuffle(document.querySelector(".shuffle-wrapper"), {
+//   const myShuffle = new Shuffle(document.querySelector(".shuffle-wrapper"), {
 //     itemSelector: ".shuffle-item",
 //     buffer: 1,
 //   });
 
 //   jQuery('input[name="shuffle-filter"]').on("change", function (evt) {
-//     var input = evt.currentTarget;
+//     const input = evt.currentTarget;
 //     if (input.checked) {
 //       myShuffle.filter(input.value);
 //     }
@@ -150,7 +150,7 @@
 ON SCROLL NAV ANIMATION -> START
 ***********/
 window.addEventListener("scroll", function () {
-  var navigation = document.querySelector(".navigation");
+  const navigation = document.querySelector(".navigation");
   if (document.documentElement.scrollTop > 100) {
     navigation.classList.add("nav-bg");
   } else {
@@ -163,35 +163,35 @@ PORTFOLIO ISOTOPE -> START
 ***********/
 document.addEventListener("DOMContentLoaded", function () {
   // init Isotope
-  var grid = document.querySelector(".iso-wrapper");
-  var iso = new Isotope(grid, {
+  const grid = document.querySelector(".iso-wrapper");
+  const iso = new Isotope(grid, {
     itemSelector: ".element-item",
     layoutMode: "fitRows",
   });
 
   // filter functions
-  var filterFns = {
+  const filterFns = {
     numberGreaterThan50: function () {
-      var number = parseInt(this.querySelector(".number").textContent, 10);
+      const number = parseInt(this.querySelector(".number").textContent, 10);
       return number > 50;
     },
     ium: function () {
-      var name = this.querySelector(".name").textContent;
+      const name = this.querySelector(".name").textContent;
       return name.match(/ium$/);
     },
   };
 
   // bind filter button click
-  var filtersElem = document.querySelector("#filters");
+  const filtersElem = document.querySelector("#filters");
   filtersElem.addEventListener("click", function (event) {
-    var filterValue = event.target.getAttribute("data-filter");
+    let filterValue = event.target.getAttribute("data-filter");
     // use filterFn if matches value
     filterValue = filterFns[filterValue] || filterValue;
     iso.arrange({ filter: filterValue });
   });
 
   // change is-checked class on buttons
-  var buttonGroups = document.querySelectorAll(".button-group");
+  const buttonGroups = document.querySelectorAll(".button-group");
   buttonGroups.forEach(function (buttonGroup) {
     buttonGroup.addEventListener("click", function (event) {
       buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
