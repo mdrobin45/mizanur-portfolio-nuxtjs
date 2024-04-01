@@ -8,10 +8,6 @@
       </div>
       <div class="row shuffle-wrapper">
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <!-- <ScrollProjectCard
-            ><img src="~/assets/images/portfolio/mountain.png" alt="G"
-          /></ScrollProjectCard> -->
-          <!-- <ScrollProjectCard img="~/assets/images/portfolio/mountain.png" /> -->
           <div class="position-relative rounded hover-wrapper">
             <img
               src="~/assets/images/portfolio/amswell-hotel.png"
