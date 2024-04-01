@@ -1,17 +1,6 @@
-<script setup>
-const props = defineProps({
-  src: {
-    type: String,
-    required: true,
-  },
-});
-const { src } = props;
-console.log(src);
-</script>
-
 <template>
   <div class="screen">
-    <img src="~/assets/images/portfolio/mountain.png">
+    <slot></slot>
   </div>
 </template>
 
@@ -27,25 +16,25 @@ console.log(src);
   border-radius: 10px;
 }
 .screen img {
-  bottom: -1210px;
+  bottom: -100%;
   width: 100%;
   height: auto;
   position: absolute;
   z-index: 0;
   margin: 0;
   padding: 0;
-  -webkit-transition: top 11s;
-  -moz-transition: top 11s;
-  -ms-transition: top 11s;
-  -o-transition: top 11s;
-  transition: bottom 11s;
+  -webkit-transition: top 5s;
+  -moz-transition: top 5s;
+  -ms-transition: top 5s;
+  -o-transition: top 5s;
+  transition: bottom 5s;
 }
 .screen:hover img {
   bottom: 0;
-  -webkit-transition: all 11s;
-  -moz-transition: all 11s;
-  -ms-transition: all 11s;
-  -o-transition: all 11s;
-  transition: all 11s;
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+  transition: all 5s;
 }
 </style>
