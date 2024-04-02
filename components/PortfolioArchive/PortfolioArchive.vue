@@ -5,7 +5,7 @@
         <div class="col-12">
           <div
             id="filters"
-            class="button-group justify-content-center d-flex flex-wrap"
+            class="button-group justify-content-around d-flex flex-wrap"
           >
             <button
               class="button first-tab btn btn-sm btn-primary is-checked"
